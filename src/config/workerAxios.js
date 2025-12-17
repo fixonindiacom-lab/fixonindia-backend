@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const APIW = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://fixonindia-backend-1.onrender.com/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://fixonindia-api.onrender.com/api",
   withCredentials: true,
 });
 
