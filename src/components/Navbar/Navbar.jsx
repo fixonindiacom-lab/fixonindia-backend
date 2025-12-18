@@ -65,6 +65,9 @@ export default function Navbar() {
           <li><NavLink to="/worker" className="nav-item">Partners</NavLink></li>
           <li><NavLink to="/about" className="nav-item">About</NavLink></li>
           <li><NavLink to="/contact" className="nav-item">Contact Us</NavLink></li>
+          <li><NavLink to="admin" className="wl-link">
+            Admin
+          </NavLink></li>
         </ul>
 
         {/* RIGHT SIDE (Profile / Login) */}
