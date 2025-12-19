@@ -24,6 +24,9 @@ export default function HeroSection() {
   return (
     <section className="hero-section">
       <div className="hero-content animate-left">
+        {/* <div>
+          <img src="https://tse1.mm.bing.net/th/id/OIP.U8cNv1_PENi8PbZIbhF1bAHaDN?pid=Api&P=0&h=180"  style={{height:"10rem" , width:"100%" , borderRadius:"10px" , boxShadow:"0 6px 20px #5382b4ff"}}/> <br />
+        </div> */}
         <h1 className="hero-title">
           Fixonindia — Your Home’s Best Buddy!
         </h1>
@@ -43,7 +46,7 @@ export default function HeroSection() {
           </Link>
 
           <button
-            className="cta-btn secondary-btn"
+            className="cta-btn secondary-btn" style={{backgroundColor:"#37c732ff"}}
             onClick={() => setShowBookPopup(true)}
           >
             Book on WhatsApp

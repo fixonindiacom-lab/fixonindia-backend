@@ -2,10 +2,37 @@ import React, { useState, useEffect } from "react";
 import API from "../../../config/axiosConfig";
 
 const SERVICES = [
+  // Refrigerator Services
   { id: 1, service: "REFRIGERATOR POWER ISSUE", price: 199 },
-  { id: 2, service: "JET CLEAN SERVICE", price: 450 },
-  { id: 3, service: "AC GAS REFILL", price: 2499 },
-  { id: 4, service: "WASHING MACHINE ISSUE", price: 199 },
+  { id: 2, service: "REFRIGERATOR NOISE ISSUE", price: 199 },
+  { id: 3, service: "REFRIGERATOR NO COOLING", price: 199 },
+  { id: 4, service: "REFRIGERATOR EXCESS COOLING", price: 199 },
+  { id: 5, service: "REFRIGERATOR WATER LEAKAGE", price: 199 },
+  { id: 6, service: "REFRIGERATOR DOOR ISSUE", price: 199 },
+  { id: 7, service: "REFRIGERATOR LESS COOLING", price: 199 },
+
+  // AC Services
+  { id: 8, service: "JET CLEAN SERVICE", price: 499 },
+  { id: 9, service: "FOAM JET CLEAN SERVICE", price: 549 },
+  { id: 10, service: "AC LESS / NO COOLING REPAIR", price: 299 },
+  { id: 11, service: "AC POWER ISSUE REPAIR", price: 299 },
+  { id: 12, service: "AC NOISE / SMELL REPAIR", price: 499 },
+  { id: 13, service: "AC WATER LEAKAGE REPAIR", price: 499 },
+  { id: 14, service: "AC GAS REFILL / FULL CHECKUP", price: 2499 },
+  { id: 15, service: "AC INSTALLATION (SPLIT)", price: 1299 },
+  { id: 16, service: "AC INSTALLATION (WINDOW)", price: 999 },
+  { id: 17, service: "AC UNINSTALLATION (SPLIT)", price: 899 },
+  { id: 18, service: "AC UNINSTALLATION (WINDOW)", price: 699 },
+
+  // Washing Machine Services (Start from 199)
+  { id: 19, service: "WASHING MACHINE UNKNOWN ISSUE", price: 199 },
+  { id: 20, service: "WASHING MACHINE DRAINING ISSUE", price: 199 },
+  { id: 21, service: "WASHING MACHINE NOT SPINNING ISSUE", price: 199 },
+  { id: 22, service: "WASHING MACHINE ERROR ON DISPLAY / POWER ISSUE", price: 199 },
+  { id: 23, service: "WASHING MACHINE NOISE ISSUE", price: 199 },
+
+  // Washing Machine Installation / Uninstallation
+  { id: 24, service: "WASHING MACHINE INSTALLATION / UNINSTALLATION", price: 399 },
 ];
 
 const BookingPop = ({ initialService = null, onClose }) => {

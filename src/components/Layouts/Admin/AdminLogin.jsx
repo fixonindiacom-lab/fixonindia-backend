@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./admin.css";
 
-const ADMIN_PIN = "123456";
+const ADMIN_PIN = "@9310";
 
 export default function AdminLogin() {
   const [pin, setPin] = useState("");

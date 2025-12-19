@@ -13,8 +13,8 @@ const SERVICES = [
   { id: 7, service: "REFRIGERATOR LESS COOLING", price: 199 },
 
   // AC Services
-  { id: 8, service: "JET CLEAN SERVICE", price: 450 },
-  { id: 9, service: "FOAM JET CLEAN SERVICE", price: 499 },
+  { id: 8, service: "JET CLEAN SERVICE", price: 499 },
+  { id: 9, service: "FOAM JET CLEAN SERVICE", price: 549 },
   { id: 10, service: "AC LESS / NO COOLING REPAIR", price: 299 },
   { id: 11, service: "AC POWER ISSUE REPAIR", price: 299 },
   { id: 12, service: "AC NOISE / SMELL REPAIR", price: 499 },

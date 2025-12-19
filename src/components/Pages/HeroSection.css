@@ -4,7 +4,25 @@
   align-items: center;
   justify-content: space-between;
   padding: 80px 60px;
-  background-color: #e0e0e0;
+  /* background-color: #e0e0e0; */
+  background: linear-gradient(115deg , #e0e0e0 , #4e7bac , #0056b3);
+
+  
+  /* Background image */
+  /* background-image: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f"); */
+  background-size: cover;        /* Best for responsiveness */
+  background-position: center;   /* Keeps focus center */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  min-height: 90vh;              /* Full hero feel */
+  width: 100%;
+
+
+
+
+
+
   flex-wrap: wrap;
   overflow: hidden;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,6 +118,7 @@
   border-radius: 18px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   transition: transform 0.5s ease, box-shadow 0.5s ease;
+
 }
 
 .hero-image img:hover {
